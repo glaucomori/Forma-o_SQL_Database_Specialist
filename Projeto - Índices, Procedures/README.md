@@ -19,6 +19,16 @@ address -->> nome da rua
 
 Para todos esses argumentos acima a estrutura determinada para os índices foi o tipo 'btree', por se tratarem de argumentos que possuem elevada quantidade de elementos.
 
+Segue abaixo algumas das perguntas que foram respondidas por queries em sql e que serviram de base para definir os índices.
+- Exibir identificação do produto e sua descrição, para os produtos das categorias: Informátia e Eletrônicos.
+- Exibir a quantidade de clientes por estado.
+- Exibir os produtos que são disponibilizados pelo fornecedor em menos de 30 dias.
+- Exibir a quantidade nos estoques dos produtos de cada categoria. Organizando do menor para o maior.
+- Exibir os valores subtotais dos produtos nos pedidos.
+- Exibir tabela com os segunites dados: fornecedor, produtos atendidos, quantidade disponível, prazo para disponibilização.
+- Exibir tabela com os seguintes dados: produto, local no estoque, quantidade no estoque, fornecedor, quantidade no fornecedor, vendedor, quantidade no vendedor.
+- Exibir tabela com os seguintes dados: cliente, produto, preço unitário, quantidade, subtotal, frete e valor total.
+- Quantos pedidos foram feitos por cada cliente?
 
 ### Procedimentos
 
