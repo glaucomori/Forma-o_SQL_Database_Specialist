@@ -1,10 +1,10 @@
-### Projeto de Personalização de um Bando de Dados com Índices e Procedimentos
+# Projeto de Personalização de um Bando de Dados com Índices e Procedimentos
 
 O presente projeto tem como objetivo a personalização de um bando de dados através da aplicação de índices e procedimentos.
 
 O projeto usado como base trata-se de um cenário fictício de e-commerce cujo esquema conceitual e projeto lógico estão situados em suas respectivas pastas dentro do meu repositório.
 
-# Índices
+### Índices
 
 Para os índices foram priorizadas as tabelas: 'product', 'clients', 'orders' e 'address'.
 
@@ -20,7 +20,7 @@ address -->> nome da rua
 Para todos esses argumentos acima a estrutura determinada para os índices foi o tipo 'btree', por se tratarem de argumentos que possuem elevada quantidade de elementos.
 
 
-# Procedimentos
+### Procedimentos
 
 Para os procedimentos foi usada a tabela 'clients', por se tratar de dados que seriam manipulados com frequência.
 
