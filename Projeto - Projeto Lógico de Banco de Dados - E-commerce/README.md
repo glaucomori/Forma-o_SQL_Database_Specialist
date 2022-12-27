@@ -1,7 +1,6 @@
 # Projeto Lógico de Banco de Dados
 
 ## Autor: Glauco Issamu Pereira Mori
-## Data: 29/10/2022
 ___
 ### Descrição
 
