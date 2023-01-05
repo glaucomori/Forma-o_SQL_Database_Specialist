@@ -2,7 +2,7 @@
 
 O presente projeto tem como objetivo a personalização de de acessos, visualizações e automatização de ações no MySQL.
 
-O projeto usado como base trata-se de um cenário fictício de uma empresa.
+O projeto usado como base um cenário fictício de uma empresa.
 
 ### Visualizações
 
