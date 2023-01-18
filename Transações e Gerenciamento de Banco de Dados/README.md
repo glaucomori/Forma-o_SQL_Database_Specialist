@@ -1,8 +1,18 @@
-# Backup & Recovery
+# Transações, Backup e Recuperação de Banco de Dados
 
-## Backup
+## Transações
+
+As transações foram usadas para exemplicar sua aplicação na execução de modificações em banco de dados.
+
+Alguns passos importantes:
+
+- Desabilitar o autocommit.
+- Criar transação contendo SQL statements.
+- Criar transação contendo procedures incluindo verificação de erros e rollback.
 
 ---
+
+## Backup
 
 O backup foi executado através do terminal no Windows usando as seguintes linhas de comando:
 
@@ -22,9 +32,9 @@ cd C:\Program Files\MySQL\MySQL Server 8.0\bin
 mysqldump --routines --triggers -user root -password company > company_backup.sql
 ```
 
-## Recovery
-
 ---
+
+## Recovery
 
 A recuperação dos bancos dados se deu através das linhas de comando a seguir:
 
