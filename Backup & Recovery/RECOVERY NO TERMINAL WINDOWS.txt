@@ -1,0 +1,8 @@
+RECOVERY TERMINAL WINDOWS
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>cd C:\Program Files\MySQL\MySQL Server 8.0\bin
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysql --user root --password < ecommerce_recovery.sql
+
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysql --user root --password < company_recovery.sql

@@ -1,0 +1,12 @@
+BACKUP NO TERMINAL WINDOWS - MYSQLDUMP
+
+cd C:\Program Files\MySQL\MySQL Server 8.0\bin
+
+
+mysqldump --user root --password --databases ecommerce > ecommerce_backup.sql
+
+
+
+
+mysqldump --routines --triggers -user root -password company > company_backup.sql
+
