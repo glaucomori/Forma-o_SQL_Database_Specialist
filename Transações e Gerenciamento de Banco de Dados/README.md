@@ -6,9 +6,11 @@ As transações foram usadas para exemplicar sua aplicação na execução de mo
 
 Alguns passos importantes:
 
+``` {.md}
 - Desabilitar o autocommit.
 - Criar transação contendo SQL statements.
 - Criar transação contendo procedures incluindo verificação de erros e rollback.
+```
 
 ---
 
